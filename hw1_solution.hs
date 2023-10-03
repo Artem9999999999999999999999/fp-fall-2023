@@ -101,7 +101,7 @@ curAdd x y = x + y
 
 -- | возвращает длину списка
 --
-myLength :: [a] -> Int
+myLength :: [a] -> Integer
 myLength list = myLengthHelper list 0
   where
     myLengthHelper :: [a] -> Int -> Int
